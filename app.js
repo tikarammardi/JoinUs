@@ -103,7 +103,8 @@ app.get("/random",(req,res)=> {
     res.send("Your Lucky number is "+ num);
 })
 
-app.listen(8080,() => {
-    console.log("Server running on 8080!!!!");
+const port = process.env.PORT || 8080;
+app.listen(port,() => {
+console.log(`Listening on port ${port}`);
 });
 
