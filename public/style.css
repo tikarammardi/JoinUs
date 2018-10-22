@@ -4,8 +4,9 @@ body {
     font-family: 'Roboto', sans-serif;
     color: rgb(66,69,86);
     height: 100%;
-    background-image: url('http://i.imgur.com/BJP2Q1j.jpg');
-    background-size: cover;
+    background-image: url('./party.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
     font-weight: 100;
   }
   
@@ -20,7 +21,10 @@ body {
     margin: 0;
     font-size: 100px;
     line-height: 400px;
-    font-weight: 100;
+    font-weight: 200;
+    color:#0000;
+    
+    
   }
   
   p {
